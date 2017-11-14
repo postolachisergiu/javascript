@@ -11,11 +11,11 @@ function createHalfPyramid (height) {
   }
 }
 
-createHalfPyramid(7);
+//createHalfPyramid(7);
 
 function createHalfPyramidImprovement(height) {
-  for (var line = "#"; line.length < height; line += "#")
+  for (var line = "#"; line.length <= height; line += "#")
   console.log(line);
 }
 
-createHalfPyramidImprovement(8)
+createHalfPyramidImprovement(7);
